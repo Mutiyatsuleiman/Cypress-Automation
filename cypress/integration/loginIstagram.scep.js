@@ -1,7 +1,7 @@
 /// <reference types= "cypress" />
 describe("Instagram Login Test suite", function () {
     it(`Instagram login`, function () {
-        //visit Twiter login page
+        //visit instagram login page
       cy.visit("https://www.Instagram.com/");
       //spy into the username input field
       cy.get(":nth-child(1) > ._9GP1n > .f0n8F > ._2hvTZ")
